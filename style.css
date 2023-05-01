@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    margin: 50rem;
+    }
+    
+    input{
+        border-radius: 5px;
+        width: 400px;
+        height:30px;
+        margin-bottom: 10px;
+        background-color: blanchedalmond;
+    }
+    
+.invalida{
+    background-color:rgb(154, 21, 21);
+    color:rgb(255, 82, 82);
+}
+
+.mensagem-sucesso{
+    background-color:rgb(145,255,145);
+    color: rgb(2,78,2)
+}
+
+.mensagem-erro{
+    background-color: rgb(255,187,187);
+    color:rgb(255,0,0);
+    
+}
